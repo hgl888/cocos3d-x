@@ -43,7 +43,7 @@ bool CMenuLayer::init()
 	//if ( CCLayerColor::initWithColor( ccc4(255, 255, 255, 255) ) )
 	if ( CCLayerColor::init() )
 	{
-#if 0
+#if 1
 		CC3Layer* cc3Layer = CC3HelloWorldLayer::create();
 		CC3Scene* cc3Scene = CC3HelloWorldScene::create();
 #else
